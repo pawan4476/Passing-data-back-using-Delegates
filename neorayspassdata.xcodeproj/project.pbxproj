@@ -16,6 +16,7 @@
 		544D243E1D75C52A0084CE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544D243C1D75C52A0084CE54 /* LaunchScreen.storyboard */; };
 		544D24491D75C52B0084CE54 /* neorayspassdataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D24481D75C52B0084CE54 /* neorayspassdataTests.m */; };
 		544D24541D75C52B0084CE54 /* neorayspassdataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D24531D75C52B0084CE54 /* neorayspassdataUITests.m */; };
+		544D24631D75C7AA0084CE54 /* passViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D24621D75C7AA0084CE54 /* passViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		544D244F1D75C52B0084CE54 /* neorayspassdataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neorayspassdataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		544D24531D75C52B0084CE54 /* neorayspassdataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neorayspassdataUITests.m; sourceTree = "<group>"; };
 		544D24551D75C52B0084CE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544D24611D75C7AA0084CE54 /* passViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = passViewController.h; sourceTree = SOURCE_ROOT; };
+		544D24621D75C7AA0084CE54 /* passViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = passViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				544D242F1D75C52A0084CE54 /* AppDelegate.m */,
 				544D24311D75C52A0084CE54 /* ViewController.h */,
 				544D24321D75C52A0084CE54 /* ViewController.m */,
+				544D24611D75C7AA0084CE54 /* passViewController.h */,
+				544D24621D75C7AA0084CE54 /* passViewController.m */,
 				544D24341D75C52A0084CE54 /* Main.storyboard */,
 				544D243A1D75C52A0084CE54 /* Assets.xcassets */,
 				544D243C1D75C52A0084CE54 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				544D24331D75C52A0084CE54 /* ViewController.m in Sources */,
 				544D24301D75C52A0084CE54 /* AppDelegate.m in Sources */,
 				544D24391D75C52A0084CE54 /* neorayspassdata.xcdatamodeld in Sources */,
+				544D24631D75C7AA0084CE54 /* passViewController.m in Sources */,
 				544D242D1D75C52A0084CE54 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

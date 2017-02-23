@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "passViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <passViewControllerDelegate>
 
 @end
 
@@ -22,6 +23,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)buttonclicked:(id)sender {
+    UIStoryboard* story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    passViewController *second = [story instantiateViewControllerWithIdentifier:@"passViewController"];
+    second.delegate = self;
+    [self.navigationController pushViewController:second animated:YES];
+}
+
+-(void)passinfo:(NSString *)str
+{
+    _lb1.text = str;
 }
 
 @end
